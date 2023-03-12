@@ -32,9 +32,8 @@ public class RepetitiveNumbers {
 		
 		for(int i : duplicate) {
 			if(i != 0) {
-				if(i % 2 ==0){
-					System.out.print("Sayı dizisindeki tekrar eden çift sayılar : "+i);
-				}
+					System.out.println(i);
+				
 			}
 		}
 	}
